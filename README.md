@@ -5,7 +5,7 @@ This is a Node.js program that scrapes Twitch channels based on the specified ga
 ## Prerequisites
 
 - Node.js v14 or later
-- Twitch API client ID and auth token
+- Twitch API client ID and access token
 
 ## Installation
 

@@ -38,7 +38,7 @@ async function fetchChannels(gameId, category) {
       channels.push(...response.data.data);
       cursor = response.data.pagination.cursor;
       processChannels(response.data.data, category);
-      await new Promise(resolve => setTimeout(resolve, 1000)); // wait for 1 seconds before making the next request
+      await new Promise(resolve => setTimeout(resolve, 5000)); // wait for 5 seconds before making the next request
     } while (true);
   } catch (error) {
     console.error(error);

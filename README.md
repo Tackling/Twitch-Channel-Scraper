@@ -1,4 +1,4 @@
-# Twitch Channels Scraper
+# Twitch Channels Scraperr
 
 This is a Node.js program that scrapes Twitch channels based on the specified game category and minimum viewership threshold, and saves the results to a text file. The program uses the Twitch API to fetch the necessary data, This could also be used as a "Username Scraper" for Twitch Lurk Bots.
 
